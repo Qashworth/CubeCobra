@@ -1,7 +1,8 @@
+/* eslint-disable react/function-component-definition */
 import React, { useCallback, useState, useContext } from 'react';
 import PropTypes from 'prop-types';
 
-import { Button, Col, Row, Collapse, Input, InputGroup, InputGroupText } from 'reactstrap';
+import { Button, Col, Row, Collapse, Input, InputGroup, InputGroupText, Form } from 'reactstrap';
 
 import { ColorChecksControl } from 'components/ColorCheck';
 
